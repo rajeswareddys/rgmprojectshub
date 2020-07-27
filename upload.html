@@ -1,0 +1,40 @@
+<html>
+<head>
+  <meta charset="utf-8">     
+  <link rel="stylesheet" type="text/css" href="files.css">
+  <title></title>
+  <style>
+    table{
+      width: 800px;
+      margin: auto;
+      text-align: center;
+    }
+    table,td{
+      border: 1px dotted white;
+      border-collapse: collapse;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+  <form action="upload.php" method="post" enctype="multipart/form-data">
+    <table>
+      
+      <tr>
+        <td class="text">Name of file </td>
+        <td><input type="text" name="name" class="btn"></td>
+      </tr>
+      
+		<tr>
+        <td class="text">zip</td>
+        <td><input type="file" name="zip"></td>
+      </tr>
+  
+    </table><br><center>
+    <input type="submit" name="submit" value="Upload" class="btn"></center>
+    
+  </form>
+</div>
+</body>
+</html>
